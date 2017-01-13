@@ -1,4 +1,12 @@
-// Bootstrap overrides
+// Bootstrap overrides for Modusystem
 //
 // Copy variables from `_variables.scss` to this file to override default values
 // without modifying source files.
+
+$blue:   #1d93d0 !default;
+
+$font-family-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, "Ubuntu", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-serif:      Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace:  "VT323", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base:       $font-family-sans-serif !default;
+
